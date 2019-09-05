@@ -15,7 +15,7 @@ app.use(cors());
 
 //Connect to DB
 const mongoURI =
-  "mongodb+srv://tbsettle:YwKi4M96!7QyePL@multertutorial-ipi2f.mongodb.net/test?retryWrites=true";
+  "YOUR_MONGO_URI";
 
 const conn = mongoose.createConnection(mongoURI);
 
